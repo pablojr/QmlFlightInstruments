@@ -5,12 +5,16 @@ import QtQuick.Window 2.15
 import QtQuick.Layouts 1.0
 
 Window {
+    id: window
     visible: true
     minimumWidth: 800
     minimumHeight: 600
     visibility: Window.Maximized
     title: "Basic Six Example"
-    color: "#000000"
+    color: "#484848"
+
+    property double scaleRatio: Math.min(height / 1080, width / 1920)
+    property double radius: 250 * scaleRatio
 
     Grid {
         columns: 3
@@ -21,38 +25,35 @@ Window {
         }
 
         AirspeedIndicator {
-            radius: 250
+            radius: window.radius
             airspeed: pfd.airspeed
         }
 
         AttitudeIndicator {
-            radius: 250
+            radius: window.radius
             roll: pfd.roll
             pitch: pfd.pitch
         }
 
-
         Altimeter {
-            radius: 250
+            radius: window.radius
             altitude: pfd.altitude
             pressure: pfd.pressure
         }
 
         TurnCoordinator {
-            radius: 250
+            radius: window.radius
             turnRate: pfd.turnRate
             slipSkid: pfd.slipSkid
         }
 
-
         HeadingIndicator {
-            radius: 250
+            radius: window.radius
             heading: pfd.heading
         }
 
-
         VerticalSpeedIndicator {
-            radius: 250
+            radius: window.radius
             climbRate: pfd.climbRate
         }
 

@@ -9,16 +9,18 @@ import QtQuick.Window 2.15
 import QtQuick.Layouts 1.0
 
 Window {
+    id: window
     visible: true
     minimumWidth: 800
     minimumHeight: 600
     visibility: Window.Maximized
     title: "Miscellaneous Gauges Example"
-    color: "#000000"
+    color: "#484848"
 
 
     FontLoader { source: "Resources/Fonts/CenturyGothic.ttf" }
-
+    property double scaleRatio: Math.min(height / 1080, width / 1920)
+    property double radius: 250 * scaleRatio
 
     Grid {
         columns: 3
@@ -29,31 +31,30 @@ Window {
         }
 
         TankGauge {
-            radius: 250
+            radius: window.radius
             leftTankFuel: pfd.leftTankFuel
             rightTankFuel: pfd.rightTankFuel
         }
 
         EgtFuelFlowGauge {
-            radius: 250
+            radius: window.radius
             egt: pfd.egt
             fuelFlow: pfd.fuelFlow
         }
 
         PropellerGauge {
-            radius: 250
+            radius: window.radius
             rpm: pfd.rpm
         }
 
-
         VacAmpGauge {
-            radius: 250
+            radius: window.radius
             vac: pfd.vac
             amp: pfd.amp
         }
 
         TemperaturePressureGauge {
-            radius: 250
+            radius: window.radius
             engineTemperature: pfd.engineTemperature
             enginePressure: pfd.enginePressure
         }
