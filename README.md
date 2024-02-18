@@ -6,7 +6,7 @@ All SVG files are taken from Marek's repository. Copyright notice is under `Data
 
 ## Build
 1) Install `Qt 5.15.2`.
-2) Open `QmlFlightInstruments.pro` with `QtCreator` and build and run it. 
+2) Open `QmlFlightInstruments.pro` with `QtCreator` and build & run it. 
 
 ## Screenshots
 ### Basic Six
