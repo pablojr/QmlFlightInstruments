@@ -1,4 +1,4 @@
-# QmlFlightInstruments
+# QML Flight Instruments
 This project is a QML port of [Marek M. Cel](http://marekcel.pl/)'s work [QFlightinstruments](https://github.com/marek-cel/QFlightinstruments) 
 and includes my implementation of miscellaneous gauges. 
 
