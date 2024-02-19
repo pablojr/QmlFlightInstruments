@@ -26,17 +26,17 @@ Item {
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/asi/asi_face.svg"
+        source: "qrc:/Data/Images/asi/asi_face.svg"
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/asi/asi_case.svg"
+        source: "qrc:/Data/Images/asi/asi_case.svg"
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/asi/asi_hand.svg"
+        source: "qrc:/Data/Images/asi/asi_hand.svg"
         rotation: angle
     }
 }

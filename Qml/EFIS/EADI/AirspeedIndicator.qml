@@ -145,7 +145,7 @@ Item  {
         x: 0
         y: 110
         width: 75
-        source: "qrc:/Data/eadi/eadi_asi_bug.svg"
+        source: "qrc:/Data/Images/eadi/eadi_asi_bug.svg"
         sourceSize.width: 375
         sourceSize.height: 150
         transform: Translate {
@@ -158,7 +158,7 @@ Item  {
         x: 0
         y: 110
         width: 75
-        source: "qrc:/Data/eadi/eadi_asi_frame.svg"
+        source: "qrc:/Data/Images/eadi/eadi_asi_frame.svg"
         sourceSize.height: 154
         sourceSize.width: 375
     }

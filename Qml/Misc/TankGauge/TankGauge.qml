@@ -93,6 +93,6 @@ Item {
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/misc/case.svg"
+        source: "qrc:/Data/Images/misc/case.svg"
     }
 }

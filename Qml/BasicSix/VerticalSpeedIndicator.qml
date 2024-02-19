@@ -9,17 +9,17 @@ Item {
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/vsi/vsi_face.svg"
+        source: "qrc:/Data/Images/vsi/vsi_face.svg"
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/vsi/vsi_case.svg"
+        source: "qrc:/Data/Images/vsi/vsi_case.svg"
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/vsi/vsi_hand.svg"
+        source: "qrc:/Data/Images/vsi/vsi_hand.svg"
         rotation: 8.6 * climbRate
     }
 }

@@ -1,8 +1,10 @@
 # QML Flight Instruments
-This project is a QML port of [Marek M. Cel](http://marekcel.pl/)'s work [QFlightinstruments](https://github.com/marek-cel/QFlightinstruments) 
-and includes my implementation of miscellaneous gauges. 
+`QML` port of [Marek M. Cel](http://marekcel.pl/)'s work [QFlightinstruments](https://github.com/marek-cel/QFlightinstruments).
+I also implemented 6 miscellaneous gauges by using javascript and `Canvas` type of `QML`.
 
-All SVG files are taken from Marek's repository. Copyright notice is under `Data` folder. For the details, please visit his repository.
+SVG files are taken from Marek's repository.
+His copyright notice `LICENSE` is under `Data/Images` folder.
+For the details, please visit Marek's repository.
 
 ## Build
 1) Install `Qt 5.15.2`.

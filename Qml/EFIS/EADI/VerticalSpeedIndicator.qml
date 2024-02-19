@@ -42,7 +42,7 @@ Item {
         x: 275
         y: 50
         width: 19
-        source: "qrc:/Data/eadi/eadi_vsi_scale.svg"
+        source: "qrc:/Data/Images/eadi/eadi_vsi_scale.svg"
         sourceSize.height: 750
         sourceSize.width: 95
     }

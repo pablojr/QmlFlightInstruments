@@ -10,7 +10,7 @@ Item {
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/alt/alt_face_1.svg"
+        source: "qrc:/Data/Images/alt/alt_face_1.svg"
         rotation: {
             var value = pressure
             if      (value < 28.0) value = 28.0
@@ -22,30 +22,30 @@ Item {
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/alt/alt_face_2.svg"
+        source: "qrc:/Data/Images/alt/alt_face_2.svg"
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/alt/alt_face_3.svg"
+        source: "qrc:/Data/Images/alt/alt_face_3.svg"
         rotation: 0.0036 * altitude
 
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/alt/alt_hand_1.svg"
+        source: "qrc:/Data/Images/alt/alt_hand_1.svg"
         rotation: 0.036 * altitude
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/alt/alt_hand_2.svg"
+        source: "qrc:/Data/Images/alt/alt_hand_2.svg"
         rotation: 0.36 * (altitude % 1000)
     }
 
     CustomImage {
         anchors.fill: parent
-        source: "qrc:/Data/alt/alt_case.svg"
+        source: "qrc:/Data/Images/alt/alt_case.svg"
     }
 }

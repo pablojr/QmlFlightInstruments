@@ -113,7 +113,7 @@ Item {
         x: 225
         y: 110
         height: 30
-        source: "qrc:/Data/eadi/eadi_alt_bug.svg"
+        source: "qrc:/Data/Images/eadi/eadi_alt_bug.svg"
         sourceSize.height: 150
         sourceSize.width: 375
         transform: Translate {
@@ -126,7 +126,7 @@ Item {
         x: 225
         y: 110
         height: 30
-        source: "qrc:/Data/eadi/eadi_alt_frame.svg"
+        source: "qrc:/Data/Images/eadi/eadi_alt_frame.svg"
         sourceSize.height: 150
         sourceSize.width: 375
     }

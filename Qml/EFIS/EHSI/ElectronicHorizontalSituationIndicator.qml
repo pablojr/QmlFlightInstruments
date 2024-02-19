@@ -22,7 +22,7 @@ Item {
 
     CustomImage {
         id: back
-        source: "qrc:/Data/ehsi/ehsi_back.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_back.svg"
         width: 300
         height: 300
     }
@@ -30,7 +30,7 @@ Item {
     CustomImage {
         id: devScale
         rotation: -heading + course
-        source: "qrc:/Data/ehsi/ehsi_dev_scale.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_dev_scale.svg"
         width: 300
         height: 300
         visible: cdiMode === 1 || cdiMode === 2
@@ -43,7 +43,7 @@ Item {
             x: pixelPerDeviation * deviation * Math.cos((-heading + course)* Math.PI / 180.0)
             y: pixelPerDeviation * deviation * Math.sin((-heading + course)* Math.PI / 180.0)
         }
-        source: "qrc:/Data/ehsi/ehsi_dev_bar.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_dev_bar.svg"
         width: 300
         height: 300
         visible: cdiMode === 1 || cdiMode === 2
@@ -52,7 +52,7 @@ Item {
     CustomImage {
         id: brgArrow
         rotation: -heading + bearing
-        source: "qrc:/Data/ehsi/ehsi_brg_arrow.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_brg_arrow.svg"
         width: 300
         height: 300
     }
@@ -60,7 +60,7 @@ Item {
     CustomImage {
         id: crsArrow
         rotation: -heading + course
-        source: "qrc:/Data/ehsi/ehsi_crs_arrow.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_crs_arrow.svg"
         width: 300
         height: 300
     }
@@ -72,7 +72,7 @@ Item {
             x: pixelPerDeviation * deviation * Math.cos((-heading + course)* Math.PI / 180.0)
             y: pixelPerDeviation * deviation * Math.sin((-heading + course)* Math.PI / 180.0)
         }
-        source: "qrc:/Data/ehsi/ehsi_cdi_to.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_cdi_to.svg"
         width: 300
         height: 300
         visible: cdiMode === 1
@@ -85,7 +85,7 @@ Item {
             x: pixelPerDeviation * deviation * Math.cos((-heading + course)* Math.PI / 180.0)
             y: pixelPerDeviation * deviation * Math.sin((-heading + course)* Math.PI / 180.0)
         }
-        source: "qrc:/Data/ehsi/ehsi_cdi_from.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_cdi_from.svg"
         width: 300
         height: 300
         visible: cdiMode === 2
@@ -93,7 +93,7 @@ Item {
 
     CustomImage {
         id: mask
-        source: "qrc:/Data/ehsi/ehsi_mask.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_mask.svg"
         width: 300
         height: 300
     }
@@ -101,7 +101,7 @@ Item {
 
     CustomImage {
         id: hdgScale
-        source: "qrc:/Data/ehsi/ehsi_hdg_scale.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_hdg_scale.svg"
         rotation: -heading
         width: 300
         height: 300
@@ -110,7 +110,7 @@ Item {
     CustomImage {
         id: hdgBug
         rotation: -heading + headingBug
-        source: "qrc:/Data/ehsi/ehsi_hdg_bug.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_hdg_bug.svg"
         width: 300
         height: 300
     }
@@ -118,7 +118,7 @@ Item {
 
     CustomImage {
         id: mark
-        source: "qrc:/Data/ehsi/ehsi_mark.svg"
+        source: "qrc:/Data/Images/ehsi/ehsi_mark.svg"
         width: 300
         height: 300
     }

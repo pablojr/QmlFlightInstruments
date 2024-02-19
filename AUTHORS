@@ -2,7 +2,7 @@ AUTHORS
 
 Marek M. Cel
 marekcel@marekcel.pl
-SVG graphics
+SVG graphics.
 
 Dave Culp
 daveculp@cox.net
@@ -10,4 +10,4 @@ PFD ILD identification and distance indicators.
 
 Berk Bavas
 berkbavas@gmail.com
-QML Port of Marek M. Cel's work https://github.com/marek-cel/QFlightinstruments
+Porting Marek M. Cel's work https://github.com/marek-cel/QFlightinstruments to QML.
