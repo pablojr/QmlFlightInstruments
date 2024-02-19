@@ -12,13 +12,13 @@ For the details, please visit Marek's repository.
 
 ## Screenshots
 ### Basic Six
-![Basic Six](Screenshots/BasicSix.png)
+![BasicSix](https://github.com/berkbavas/QmlFlightInstruments/assets/53399385/ef5507fc-e1aa-4fe0-8028-1851c19fe13c)
 
 ### Electronic Flight Instrument System
-![EFIS](Screenshots/EFIS.png)
+![EFIS](https://github.com/berkbavas/QmlFlightInstruments/assets/53399385/dd95a09e-9110-42f7-b8f3-0473a19dfb68)
 
 ### Miscellaneous
-![Misc](Screenshots/Misc.png)
+![Misc](https://github.com/berkbavas/QmlFlightInstruments/assets/53399385/e34fc7b4-ecd2-4092-9796-46c1f5c9f3aa)
 
 ## Keywords
 `QML`,
